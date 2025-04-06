@@ -1,0 +1,46 @@
+clinic_management_system/
+│
+├── main.py                     # Application entry point
+│
+├── assets/                     # Static assets
+│   └── icons/
+│       └── clinic_icon.png     # Application icon
+│
+├── logs/                       # Application logs directory
+│
+├── models/                     # Data models and business logic
+│   ├── __init__.py
+│   ├── config_manager.py       # Configuration and user management
+│   ├── patient_manager.py      # Patient and visit management
+│   ├── appointment_manager.py      
+│   ├── documents_manager.py      
+│   └── test_results_manager.py     
+│
+├── utils/                      # Utility functions
+│   ├── __init__.py
+│   ├── themes.py               # UI theme management
+│   ├── report_generator.py               
+│   ├── error_handler.py               
+│   ├── dependency_checker.py               
+│   └── validators.py               
+│
+└── views/                      # UI views/screens
+    ├── __init__.py
+    ├── login_window.py         # Login screen
+    ├── main_window.py          # Main application window
+    ├── patients_view.py        # Patient management view
+    ├── active_visits_view.py   # Active visits management view
+    ├── reports_view.py         # Reports generation view
+    ├── test_results_view.py           # System settings and configuration view
+    ├── setup_view.py           
+    ├── patient_report_view.py   
+    ├── enhanced_dashboard_view.py
+    ├── documents_view.py
+    ├── appointment_view.py
+    └── active_visits_view.py
+        
+      
+
+
+
+

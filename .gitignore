@@ -1,0 +1,8 @@
+# .gitignore file content
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+logs/*
+!logs/.gitkeep
